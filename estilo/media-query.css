@@ -1,0 +1,25 @@
+@media screen and (min-width: 900px) {
+    #title {
+        font-size: 4rem;
+        text-align: center;
+    }
+    #wrap {
+        font-size: 1.2rem;
+        width: 100vw;
+        height: 60vh;
+        display: block;
+        margin: auto;
+        
+    }
+  
+    #btn {
+        font-size: 1.1rem;
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    #boxprice {
+        height: 1.2rem;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Imposto</title>
+    <link rel="shortcut icon" href="imagens/Martz90-Circle-Calculator.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+
+<body>
+    <main>
+        <h1 id="title">Calcule aqui o imposto sobre sua compra</h1>
+
+        <div id="wrap">
+            <p> 
+                Produtos importados que possuem um valor de compra maior que <b>R$150,00</b> são taxados. É cobrado um imposto correspondente a <b>60%</b> do valor do produto. 
+            </p>
+            <p> 
+                Preencha o campo abaixo com o valor da sua compra e saiba se o seu produto será ou não taxado, caso seja, quanto será cobrado de imposto.
+            </p>
+
+            <div id="price">
+                Valor do produto : <b>R$</b><input type="number" name="boxprice" id="boxprice">
+            </div>
+            <div>
+                <button id="btn" type="submit"> Calcular Imposto </button>
+            </div>
+            
+            <div id="text"> </div>
+
+        </div>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

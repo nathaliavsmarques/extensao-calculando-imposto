@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Calcular Imposto",
+  "description": "Extensão que permite ao usuário verificar se seu produto importado será taxado e ,caso seja, quanto será cobrado de imposto.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html", 
+    "default_icon": "tax.png.png"
+  }
+}
